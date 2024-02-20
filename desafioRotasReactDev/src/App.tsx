@@ -6,6 +6,7 @@ import Products from './routes/Home/Products'
 import Computers from './routes/Home/Products/Computers'
 import Electronics from './routes/Home/Products/Electronics'
 import Books from './routes/Home/Products/Books'
+import About from './routes/Home/About'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
               <Route path="eletronics" element={<Electronics />} />
               <Route path="books" element={<Books />} />
             </Route>
+            <Route path="about" element={<About />} />
           </Route>
         </Routes>
       </BrowserRouter>
