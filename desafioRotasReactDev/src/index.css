@@ -8,3 +8,33 @@
   --color-font-primary: #fff;
   --color-font-secondary: #000;
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html, body {
+  background-color: var(--color-bg-primary);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.active-menu-item {
+  font-weight: 700;
+}
