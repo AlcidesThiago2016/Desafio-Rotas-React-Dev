@@ -5,6 +5,7 @@ import HomeBody from './routes/Home/HomeBody'
 import Products from './routes/Home/Products'
 import Computers from './routes/Home/Products/Computers'
 import Electronics from './routes/Home/Products/Electronics'
+import Books from './routes/Home/Products/Books'
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
             <Route path="products" element={<Products />}>
               <Route path="computers" element={<Computers />} />
               <Route path="eletronics" element={<Electronics />} />
+              <Route path="books" element={<Books />} />
             </Route>
           </Route>
         </Routes>
