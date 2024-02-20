@@ -27,13 +27,13 @@ export default function Header(){
                             Sobre nós
                         </NavLink>
                     </div>
-                    <div className="nav-icon">
+                </div>
+                <div className="nav-icon">
                         <Link to="/">
                             {" "}
                             <img src={iconHome} alt="Inicio" />
                         </Link>
                     </div>
-                </div>
             </nav>
         </header>
     );
